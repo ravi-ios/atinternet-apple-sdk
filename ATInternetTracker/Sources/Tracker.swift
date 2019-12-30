@@ -288,6 +288,10 @@ public class Tracker: NSObject {
     /// Return ECommerce instance
     @objc fileprivate(set) public lazy var ecommerce: ECommerce = ECommerce(tracker: self)
     
+    //MARK: AVInsights Tracking
+    /// Return AVInsights instance
+    @objc fileprivate(set) public lazy var avInsights: AVInsights = AVInsights(tracker: self)
+    
     //MARK: Events Tracking
     /// Return Events instance
     @objc fileprivate(set) public lazy var events: Events = Events(tracker: self)

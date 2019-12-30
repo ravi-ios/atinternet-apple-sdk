@@ -19,7 +19,7 @@
  */
 
 //
-//  ObjectProperties.swift
+//  EcommerceObjectProperties.swift
 //  Tracker
 //
 
